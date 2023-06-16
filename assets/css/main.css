@@ -1785,9 +1785,18 @@ input, select, textarea {
 		outline: 0;
 	}
 
+	.featured{
+		margin-bottom: 30px !important;
+		box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.61);
+		border-radius: 10px;
+	}
+	image{
+		border-radius: 10px;
+	}
 		.image img {
 			display: block;
 			width: 100%;
+			border-radius: 10px;
 		}
 
 		.image.fit {
@@ -2176,7 +2185,9 @@ input, select, textarea {
 
 	#header {
 		position: relative;
-		background-image: url("../../images/header.jpg");
+		background-image: url("/images/AdobeStock_271641273-scaled.jpeg");
+		background-blend-mode: multiply;
+		background-color: rgba(0, 0, 0, 0.527);
 		background-size: cover;
 		background-position: center center;
 		background-attachment: fixed;
@@ -2190,7 +2201,6 @@ input, select, textarea {
 			content: '';
 			display: inline-block;
 			vertical-align: middle;
-			height: 100%;
 		}
 
 		#header .inner {
@@ -2600,6 +2610,7 @@ input, select, textarea {
 			-webkit-transition: opacity 0.75s ease-in-out;
 			-ms-transition: opacity 0.75s ease-in-out;
 			transition: opacity 0.75s ease-in-out;
+			border-radius: 10px;
 		}
 
 			.carousel article.loading {
@@ -2868,7 +2879,7 @@ input, select, textarea {
 				padding-bottom: 1px;
 			}
 
-			#navButton {
+			/* #navButton {
 				-moz-backface-visibility: hidden;
 				-webkit-backface-visibility: hidden;
 				-ms-backface-visibility: hidden;
@@ -2884,9 +2895,9 @@ input, select, textarea {
 				top: 0;
 				width: 100%;
 				z-index: 10001;
-			}
+			} */
 
-				#navButton .toggle {
+				/* #navButton .toggle {
 					text-decoration: none;
 					position: absolute;
 					left: 0;
@@ -2928,8 +2939,8 @@ input, select, textarea {
 						background: rgba(132, 128, 136, 0.75);
 						border-top: 0;
 						border-radius: 0 0 0.35em 0.35em;
-					}
-
+					} */
+/* 
 			#navPanel {
 				-moz-backface-visibility: hidden;
 				-webkit-backface-visibility: hidden;
@@ -3015,9 +3026,9 @@ input, select, textarea {
 
 				#navPanel .depth-0 {
 					color: #fff;
-				}
+				} */
 
-			body.navPanel-visible #page-wrapper {
+			/* body.navPanel-visible #page-wrapper {
 				-moz-transform: translateY(50vh);
 				-webkit-transform: translateY(50vh);
 				-ms-transform: translateY(50vh);
@@ -3036,7 +3047,7 @@ input, select, textarea {
 				-webkit-transform: translateY(0);
 				-ms-transform: translateY(0);
 				transform: translateY(0);
-			}
+			} */
 
 		/* Wrapper */
 
