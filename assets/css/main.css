@@ -3150,13 +3150,13 @@ input, select, textarea {
 						
 	.fixed-call{
 		position: fixed;
-		max-width: 57px;
+		max-width: 75px;
 		width: 100%;
 		background-color: rgb(0, 160, 0);
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		padding: 15px 0 10px 0;
+		padding: 20px 0 16px 0;
 		border-radius: 100%;
 		left: 20px;
 		bottom: 20px;
@@ -3164,6 +3164,16 @@ input, select, textarea {
 		cursor: pointer;
 		box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.603);
 		transition: .2s;
+	}
+
+	@media only screen and (max-width: 768px) {
+		.fixed-call{
+			max-width: 57px;
+			padding: 15px 0 10px 0;
+		}
+		.fixed-call svg{
+			width: 16px !important;
+		}
 	}
 	.fixed-call a{
 		z-index: 1000;
