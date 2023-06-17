@@ -2185,7 +2185,7 @@ input, select, textarea {
 
 	#header {
 		position: relative;
-		background-image: url("/images/AdobeStock_271641273-scaled.jpeg");
+		background-image: url("../../images/AdobeStock_271641273-scaled.jpeg");
 		background-blend-mode: multiply;
 		background-color: rgba(0, 0, 0, 0.527);
 		background-size: cover;
